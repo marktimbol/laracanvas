@@ -1,7 +1,15 @@
 {
-    "private": true,
-    "scripts": {
-        "prod": "gulp --production",
-        "dev": "gulp watch"
-    }
+  "private": true,
+  "scripts": {
+    "prod": "gulp --production",
+    "dev": "gulp watch"
+  },
+  "dependencies": {
+    "laravel-elixir": "^6.0.0-15",
+    "laravel-elixir-vue-2": "^0.3.0",
+    "vue": "^2.1.10"
+  },
+  "devDependencies": {
+    "laravel-elixir-webpack-official": "^1.0.10"
+  }
 }

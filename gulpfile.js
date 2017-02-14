@@ -14,5 +14,10 @@ require('laravel-elixir-vue-2');
  */
 
 elixir(function (mix) {
-    // Your gulp tasks!
+    mix.sass('app.scss', 'public/css/app.css')
+    	.webpack('app.js')
+    	.version([
+    		'public/css/app.css',
+    		'public/js/app.js'
+    	]);
 });

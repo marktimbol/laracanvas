@@ -11,3 +11,5 @@
 |
 */
 
+// Route::get('/', ['as' => 'canvas.home', 'uses' => 'PagesController@index']);
+
